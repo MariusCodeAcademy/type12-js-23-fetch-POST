@@ -1,0 +1,27 @@
+
+
+GET https://fakestoreapi.com/products
+
+###
+
+POST https://fakestoreapi.com/auth/login
+Content-Type: application/json
+
+{
+  "username": "mor_2314",
+  "password": "83r5^_"
+}
+
+###
+
+POST https://fakestoreapi.com/products
+Content-Type: application/json
+
+{
+  "title": "test product",
+  "price": 13.5,
+  "description": "lorem ipsum set",
+  "image": "https://i.pravatar.cc",
+  "category": "electronic"
+}
+
