@@ -8,4 +8,11 @@ const passwordEl = document.getElementById('password');
 
 formEl.addEventListener('submit', formSubmitHandler);
 
-function formSubmitHandler() {}
+/**
+ *
+ * @param {SubmitEvent} event
+ */
+function formSubmitHandler(event) {
+  event.preventDefault();
+  // surikti formos inputus i viena objekta ir iskonsolinti
+}
